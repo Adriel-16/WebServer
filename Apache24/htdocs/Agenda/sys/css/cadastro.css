@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    background: linear-gradient(20deg, rgb(192, 28, 154)30%, rgb(151, 40, 224) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+table{
+
+    border-spacing: 10px;
+
+}
+
+input{
+    
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border: 0;
+    box-shadow: 0px 0px 5px 1px black;
+
+}
+
+button{
+
+    background-color: white;
+    height: 20px;
+    width: 100px;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 1px black;
+
+}
+
+button:hover{
+
+    transition: 0.2s;
+    background-color: rgb(218, 218, 218);
+
+}
+
+input:hover{
+
+    transition: 0.2s;
+    background-color: rgb(218, 218, 218);
+
+}
+
+.fundo{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(img/img_cadastros.png);
+    background-size: 35%;
+    background-repeat: no-repeat;
+    background-position-x: 5%;
+    background-position-y: 60%;
+
+    height: 420px;
+    width: 700px;
+
+    color: white;
+    background-color: rgba(116, 42, 165, 0.267);
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 1px black;
+
+    & .sair{
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        margin-top: -50%;
+        margin-left: -40%;
+    
+    }
+
+    & .login{
+
+        margin-top: -40%;
+        margin-left: 65%;
+
+    }
+
+    & .botao{
+
+        margin-top: 5%;
+        margin-left: 100%;
+
+    }
+
+    & .tabela{
+
+        margin-left: 70%;
+        margin-top: 35%;
+
+    }
+
+}
